@@ -1,8 +1,9 @@
 /* Website Styles */
 body {
+  font-family: Arial Bold, sans-serif;
   background-color: Grey;
+  /* background-color: grey; */
   color: Black;
-  font-family: Arial Bold, Arial;
 }
 
 h1 {
