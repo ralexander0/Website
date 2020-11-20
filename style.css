@@ -1,13 +1,114 @@
 /* Website Styles */
-body {
-  font-family: Arial Bold, sans-serif;
-  background-color: Grey;
-  /* background-color: grey; */
-  color: Black;
+
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  /* border: 1px solid red; */
 }
 
-h1 {
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: violet;
+  color: white;
+}
+
+header,
+section,
+footer {
+  padding: 30px
+}
+
+header{
+  /* border-bottom: 5px solid grey; */
+}
+
+section {
+  border: 1px solid gainsboro;
+  background-color:white;
+  margin: 30px;
+  padding: 30px;
+}
+
+body {
+  background-color: Grey;
+  color: Black;
+  font-family: Arial Bold, sans-serif;
+  font-size: 14px;
+  /* margin: 50px; */
+  /* background-color: black; */
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
   color: red;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: maroon;
+}
+
+p {
+  margin: 15px 0;
+  line-height: 2;
+ }
+
+ ul, ol {
+   margin: 15px 0;
+ }
+
+h1 {
+  color: black;
+  font-size: 36px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+header h1 {
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+}
+
+h3 {
+  color: black;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 20px;
 }
 
 footer {
