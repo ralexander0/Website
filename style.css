@@ -1,5 +1,11 @@
 /* Website Styles */
 
+/* .images {
+  background-image: url(file.jpg);
+  width: 100px;
+  height: 100px;
+} */
+
 * {
   font-size: 100%;
   margin: 0;
@@ -32,7 +38,7 @@
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: violet;
-  color: white;
+  color: black;
 }
 
 header,
