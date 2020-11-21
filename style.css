@@ -58,6 +58,9 @@ section {
   padding: 30px;
 }
 
+section, h3 {
+  text-align: center;
+}
 
 body {
   background-color: Grey;
@@ -120,6 +123,7 @@ h1, h2, h3 {
   font-style: italic;
   margin-bottom: 20px;
 }
+
 
 footer {
   color: black;
