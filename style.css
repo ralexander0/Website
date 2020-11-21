@@ -96,6 +96,7 @@ p {
 
  ul, ol {
    margin: 15px 0;
+   text-align: left;
  }
 
 h1 {
