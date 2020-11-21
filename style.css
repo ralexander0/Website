@@ -58,6 +58,7 @@ section {
   padding: 30px;
 }
 
+
 body {
   background-color: Grey;
   color: Black;
@@ -111,7 +112,6 @@ h2 {
 h3 {
   color: black;
   font-size: 18px;
-  text-align: center;
   line-height: 3;
 }
 
